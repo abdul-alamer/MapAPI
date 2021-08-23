@@ -31,7 +31,7 @@ export default class Map extends React.Component {
                   longitude: location.coords.longitude
                  } )
               });
-           // setLocation(newLocation);
+          console.log(this.state.coordinate.latitude)
             
             
             
